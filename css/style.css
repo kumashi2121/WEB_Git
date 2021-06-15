@@ -1,0 +1,71 @@
+/* ----------------------------
+header 
+------------------------------*/
+.wrapper header {
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  margin-top: -16px;
+  z-index: 1000;
+}
+
+.wrapper header .logo img {
+  width: 70%;
+}
+
+.wrapper header .menubtn {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 20px;
+}
+
+.wrapper header .menubtn div {
+  width: 30px;
+  height: 2px;
+  background-color: #00c8c8;
+  margin-bottom: 8px;
+}
+
+.wrapper header .menu {
+  display: none;
+}
+
+/* ----------------------------
+mv
+------------------------------*/
+.mv {
+  margin-top: 80px;
+  padding-top: 280px;
+  background-image: url(../img/bg_mv.jpg);
+  background-size: 1920px;
+  height: 800px;
+}
+
+.mv .icatch {
+  padding: 30px;
+  width: 60%;
+  background-color: #00c8c8;
+  color: #fff;
+}
+
+.mv .icatch h1 {
+  font-size: 54px;
+}
+
+/* ----------------------------
+news
+------------------------------*/
+.news {
+  padding: 40px 0 50px;
+}
+
+.news .ttl {
+  text-align: center;
+}
+
+/* ----------------------------
+footer 
+------------------------------*/
