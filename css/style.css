@@ -61,11 +61,6 @@ news
 .news {
   padding: 40px 0 50px;
 }
-
-.news .ttl {
-  text-align: center;
-  margin-bottom: 40px;
-}
 .news .list {
   width: 600px;
   margin: 0 auto;
@@ -96,10 +91,6 @@ about
 .about {
   padding: 40px 0 50px;
 }
-.about .ttl {
-  text-align: center;
-  margin-bottom: 40px;
-}
 .about .box {
   width: 70%;
   padding: 80px 30px;
@@ -127,6 +118,33 @@ about
 }
 .about .box .txt p {
   color: #fff;
+}
+
+/* ----------------------------
+works
+------------------------------*/
+.works {
+  padding: 40px 0 50px;
+}
+.works .item {
+  width: 30%;
+  border: 1px solid #00c8c8;
+  border-radius: 50%;
+  padding: 20px;
+}
+.works .item .icon {
+  text-align: center;
+}
+.works .item .icon i {
+  font-size: 56px;
+  color: #00c8c8;
+}
+.works .item .ttl2 {
+  text-align: center;
+  color: #00c8c8;
+}
+.works .item .txt {
+  color: #00c8c8;
 }
 
 /* ----------------------------
