@@ -64,6 +64,30 @@ news
 
 .news .ttl {
   text-align: center;
+  margin-bottom: 40px;
+}
+.news .list {
+  width: 600px;
+  margin: 0 auto;
+  border-top: 1px solid #cdcdcd;
+}
+
+.news .list .item {
+  border-bottom: 1px solid #cdcdcd;
+  padding: 10px 0;
+}
+
+.news .list .item a {
+  transition: .3s;
+  display: inline-block;
+}
+.news .list .item a:hover {
+  opacity: 0.6;
+  color: #00c8c8;
+}
+.news .list .item p {
+  color: #000000;
+
 }
 
 /* ----------------------------
