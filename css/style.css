@@ -91,5 +91,43 @@ news
 }
 
 /* ----------------------------
+about
+------------------------------*/
+.about {
+  padding: 40px 0 50px;
+}
+.about .ttl {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.about .box {
+  width: 800px;
+  padding: 150px;
+  margin-bottom: 70px;
+  background-color: #00c8c8;
+  border-radius: 0 120px 120px 0;
+}
+.about .right {
+  margin-left: auto;
+  border-radius: 120px 0 0 120px;
+}
+.about .box.right .txt {
+  margin-right: auto;
+  margin-left: 0;
+}
+.about .box .txt {
+  padding: 20px;
+  width: 100%;
+  margin-left: auto;
+}
+.about .box .txt .ttl2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.about .box .txt p {
+  color: #fff;
+}
+
+/* ----------------------------
 footer 
 ------------------------------*/
