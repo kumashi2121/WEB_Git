@@ -101,15 +101,13 @@ about
   margin-bottom: 40px;
 }
 .about .box {
-  width: 800px;
-  padding: 150px;
+  width: 70%;
+  padding: 80px 30px;
   margin-bottom: 70px;
   background-color: #00c8c8;
-  border-radius: 0 120px 120px 0;
 }
 .about .right {
   margin-left: auto;
-  border-radius: 120px 0 0 120px;
 }
 .about .box.right .txt {
   margin-right: auto;
@@ -117,8 +115,11 @@ about
 }
 .about .box .txt {
   padding: 20px;
-  width: 100%;
+  width: 40%;
   margin-left: auto;
+}
+.about .box .img {
+  width: 60%;
 }
 .about .box .txt .ttl2 {
   font-size: 24px;
